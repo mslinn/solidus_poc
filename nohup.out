@@ -1,0 +1,160 @@
+Fetching https://github.com/solidusio/solidus
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies....
+Using rake 13.0.6
+Using concurrent-ruby 1.1.10
+Using minitest 5.16.2
+Using erubi 1.10.0
+Using racc 1.6.0
+Using crass 1.0.6
+Using rack 2.2.4
+Using nio4r 2.5.8
+Using builder 3.2.4
+Using websocket-extensions 0.1.5
+Using marcel 1.0.2
+Using mini_mime 1.1.2
+Using digest 3.1.0
+Using timeout 0.3.0
+Using strscan 3.0.4
+Using public_suffix 4.0.7
+Using execjs 2.8.1
+Using bindex 0.8.1
+Using msgpack 1.5.4
+Using bundler 2.3.18
+Using cancancan 3.4.0
+Using method_source 1.0.0
+Using thor 1.2.1
+Using zeitwerk 2.6.0
+Using matrix 0.4.2
+Using regexp_parser 2.5.0
+Using childprocess 4.1.0
+Using climate_control 0.2.0
+Using io-console 0.5.11
+Using ffi 1.15.5
+Using tilt 2.0.11
+Using mini_magick 4.11.0
+Using kaminari-core 1.2.2
+Using mime-types-data 3.2022.0105
+Using omnes 0.2.2
+Using pg 1.4.2
+Using stringio 3.0.2
+Using rexml 3.2.5
+Using rubyzip 2.3.2
+Using websocket 1.2.9
+Using state_machines 0.5.0
+Using truncate_html 0.9.3
+Using websocket-driver 0.7.5
+Using puma 5.6.4
+Using net-protocol 0.1.3
+Using nokogiri 1.13.8 (x86_64-linux)
+Using mail 2.7.1
+Using i18n 1.12.0
+Using tzinfo 2.0.5
+Using addressable 2.8.0
+Using autoprefixer-rails 10.4.7.0
+Using bootsnap 1.13.0
+Using rack-test 2.0.2
+Using sprockets 4.1.1
+Using terrapin 0.6.0
+Using reline 0.3.1
+Using ruby-vips 2.1.4
+Using sassc 2.4.0
+Using mime-types 3.4.1
+Using selenium-webdriver 4.3.0
+Using psych 4.0.4
+Using net-imap 0.2.3
+Using net-pop 0.1.1
+Using net-smtp 0.3.1
+Using loofah 2.18.0
+Using xpath 3.2.0
+Using money 6.16.0
+Using activesupport 7.0.3.1
+Using irb 1.4.1
+Using image_processing 1.12.2
+Using handlebars_assets 0.23.9
+Using webdrivers 5.0.0
+Using debug 1.6.1
+Using rails-html-sanitizer 1.4.3
+Using capybara 3.37.1
+Using monetize 1.12.0
+Using rails-dom-testing 2.0.3
+Using globalid 1.0.0
+Using activemodel 7.0.3.1
+Using activemerchant 1.126.0
+Using carmen 1.1.3
+Using actionview 7.0.3.1
+Using activejob 7.0.3.1
+Using activerecord 7.0.3.1
+Using state_machines-activemodel 0.8.0
+Using kt-paperclip 7.1.1
+Using acts_as_list 1.0.4
+Using discard 1.2.1
+Using awesome_nested_set 3.5.0
+Using friendly_id 5.4.2
+Using kaminari-activerecord 1.2.2
+Using ransack 2.6.0
+Using state_machines-activerecord 0.8.0
+Using jbuilder 2.11.5
+Using actionpack 7.0.3.1
+Using kaminari-actionview 1.2.2
+Using actioncable 7.0.3.1
+Using activestorage 7.0.3.1
+Using actionmailer 7.0.3.1
+Using railties 7.0.3.1
+Using sprockets-rails 3.4.2
+Using actionmailbox 7.0.3.1
+Using actiontext 7.0.3.1
+Using cssbundling-rails 1.1.1
+Using font-awesome-rails 4.7.0.8
+Using jquery-rails 4.5.0
+Using jsbundling-rails 1.0.3
+Using responders 3.0.1
+Using sassc-rails 2.1.2
+Using stimulus-rails 1.1.0
+Using turbo-rails 1.1.1
+Using web-console 4.2.0
+Using kaminari 1.2.2
+Using rails 7.0.3.1
+Using solidus_core 3.2.0.alpha from https://github.com/solidusio/solidus (at master@a227230)
+Using canonical-rails 0.2.14
+Using solidus_api 3.2.0.alpha from https://github.com/solidusio/solidus (at master@a227230)
+Using solidus_sample 3.2.0.alpha from https://github.com/solidusio/solidus (at master@a227230)
+Using solidus_backend 3.2.0.alpha from https://github.com/solidusio/solidus (at master@a227230)
+Using solidus_frontend 3.2.0.alpha from https://github.com/solidusio/solidus (at master@a227230)
+Using solidus 3.2.0.alpha from https://github.com/solidusio/solidus (at master@a227230)
+Bundle complete! 17 Gemfile dependencies, 121 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+Post-install message from solidus_core:
+-------------------------------------------------------------
+                Thank you for using Solidus
+-------------------------------------------------------------
+If this is a fresh install, don't forget to run the Solidus
+installer with the following command:
+
+$ bin/rails g solidus:install
+
+If you are updating Solidus from an older version, please run
+the following commands to complete the update:
+
+$ bin/rails g solidus:update
+
+Please, don't forget to look at the CHANGELOG to see what has changed and
+whether you need to perform other tasks.
+
+https://github.com/solidusio/solidus/blob/master/CHANGELOG.md
+
+Please report any issues at:
+- https://github.com/solidusio/solidus/issues
+- http://slack.solidus.io/
+-------------------------------------------------------------
+Post-install message from solidus_frontend:
+----------------------------------------------------------------------------
+DEPRECATION WARNING: SolidusFrontend is deprecated. It will be removed from
+the solidus meta-package gem in a Solidus v4. Furthermore, its code will be
+extracted from https://github.com/solidusio/solidus to a new repo. Once
+extracted, you'll need to explicitly add `solidus_frontend` to your Gemfile
+in order to continue using it.
+
+For fresh Solidus applications, we recommend you use SolidusStarterFrontend
+instead.
+----------------------------------------------------------------------------
